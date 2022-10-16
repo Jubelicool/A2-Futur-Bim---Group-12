@@ -1,7 +1,6 @@
-Group 12: 
-Christina Kjær and Julie Bech Liengaard
-Use Case - Acoustics
-====================
+# Group 12: 
+## Christina Kjær and Julie Bech Liengaard
+### Use Case - Acoustics
 
 This document describes the changes made in the HTML-Build-IFC-Converter-main folder/scripts.
 Our use case focuses on acoustics, therefore the necessary extractions from the .ifc file are amongst other spaces, areas, volumes and material properties (such as absorption coefficients). 
@@ -9,7 +8,7 @@ In this assignment the learning objectives is to develop the python code, we hav
 This is beneficial because .html is an easy way to communicate information about the BIM model without the end user having to have any other software than simply a browser. 
 If our implementations are done correctly it should not be necessary for the user to have any prior knowledge about BIM or the building model that is used/displayed.
 
-====================
+## Descriptions of changes made
 In the scripts HTMLBuild.py, html-build.js and index.html the changes will have a comment after saying "G12: " and a short explanation (usefuld for ctrl+f). 
 
 HTMLBuild.py
@@ -32,13 +31,10 @@ space_entities needs to be called in the index.html file where it is inserted in
 So far it is printing a string (area = "Area #"), but it should extract the data from the floor_entities (and hence space_entities) which we will work on. 
 
 
-====================
-
 The code changes so far are helpful to identify spaces in the building on the floors which was the first point in our necessary extractions. 
 
-====================
  
-Future work: 
+## Future work
 In the future new developments and implementations should be able to identify rooms and extract their area and volume. 
 It could be useful to get an idea of the geometry shape (rectangular vs non-rectangular) based on number of walls in the space. Acoustics will, however, also be affected based on whether the walls are parallel or not, but this will not be considered at this level.
 The idea is to be able to extract material and a suggested absorption coefficients.  
