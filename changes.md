@@ -16,7 +16,7 @@ All changes are made after line 108 in the original code.
 - Line 108 in the custom, added model: custom+= classifyFloors(floors,site_elev, model)
 - Around line 135: Inserted outputVolumeArea(model) function to return space_entities (code from blender Assingment 1).
 - Inserted space_entities = outputVolumeArea(model) line in the function classifyFloors inside the for loop and stored in floor_entities. 
-- From around line ______ room numbers and roomnames for eachfloor are called from attributes to Objects in IfcBuildingStorey. 
+- From line 185 room numbers and roomnames for each floor are called from object attributes in the IfcBuildingStorey directory. 
 
 html-build.js
 Text is changed from "happy" to print something else. 
