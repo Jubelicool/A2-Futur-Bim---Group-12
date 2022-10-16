@@ -1,4 +1,3 @@
-====================
 Group 12: 
 Christina Kjær and Julie Bech Liengaard
 Use Case - Acoustics
